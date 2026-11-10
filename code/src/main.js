@@ -2,7 +2,6 @@ import { getSecondsLeftOfYear, getTimeString } from "./clock";
 
 const timeContainer = document.getElementById("time");
 const timeLeft = document.getElementById("seconds-left");
-const neverUsed = 3;
 
 const render = () => {
   const now = new Date();
